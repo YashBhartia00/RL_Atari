@@ -11,3 +11,8 @@
  
  **memory**: Replay memory
  
+ results on 400 episodes of training, test wins all 21 points
+ ![data](https://github.com/YashBhartia00/RL_Atari/blob/master/train_stats.png)
+ 
+ ![test](https://github.com/YashBhartia00/RL_Atari/blob/master/test_result.gif)
+ 
