@@ -20,3 +20,5 @@ class DQN(nn.Module):
         x = F.relu(self.conv3(x))
         x = F.relu(self.fc4(x.view(x.size(0), -1)))
         return self.head(x)
+    def expel(self, y):
+        print(y)
